@@ -1,0 +1,154 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+}
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--primary-text-color);
+}
+.link {
+  text-decoration: none;
+}
+.link:hover {
+  color: #2196f3;
+}
+.link:focus {
+  color: #2196f3;
+}
+
+.list {
+  list-style-type: none;
+}
+.button {
+  color: var(--title-text-color);
+  background: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 2.17;
+  text-decoration: none;
+}
+.button:focus {
+  color: #ffffff;
+  background: #2196f3;
+}
+.button:hover {
+  color: #ffffff;
+  background: #2196f3;
+}
+/* -------header--------- */
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.logo-blue {
+  color: #2196f3;
+}
+.logo-black {
+  color: #000000;
+}
+.header-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.header-list-link {
+  color: var(--title-text-color);
+}
+.header-adress-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.header-adress-item {
+  color: var(--primary-text-color);
+}
+/*-------footer------------- */
+.footer {
+  background-color: var(--title-text-color);
+}
+.logo-white {
+  color: #ffffff;
+}
+.footer-adress-item {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: white;
+}
+.footer-link {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+/*-------Main section------ */
+.main {
+  background-color: var(--title-text-color);
+}
+.main-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  color: #ffffff;
+}
+/* /* ---------Special section--------- */
+.special-item-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--title-text-color);
+}
+.special-item-text {
+  font-size: 14px;
+  line-height: 1.71;
+}
+/* --------- What we doing section---------*/
+.our-job-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--title-text-color);
+}
+/* ---------Our team section--------- */
+.team-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--title-text-color);
+}
+.team-item-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--title-text-color);
+}
+.team-item-profession {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+/* ----------Portfolio section------------- */
+.portfolio-catalogue-list-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--title-text-color);
+}
+.portfolio-catalogue-list-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.88;
+}
